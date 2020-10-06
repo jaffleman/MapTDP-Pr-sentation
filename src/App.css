@@ -1,7 +1,30 @@
 body {
   background-color: #ecca96;font-family:Courier New, monospace;
-  background-image:url(./background/background.jpg);
+  background-image:url(./background/background2.jpg);
   background-attachment: fixed;
   background-position: center;
-  background-size: auto;
+  text-align: center;
+ 
+}
+
+.logo{
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 3px black;
+  border: 1px solid black;
+  text-align: center;
+  width: fit-content;
+  margin: 10px 2% 5px 3%;
+  background-color: hsla(36, 86%, 66%, 0.664);
+}
+.text{
+  
+  border-radius: 5px;
+  color: white;
+  /*box-shadow: 3px 3px 10px 3px black;*/
+  border: 1px solid rgb(42, 40, 40);
+  padding: 10px;
+  text-align: justify;
+  width: auto;
+  margin: 10px 1% 5px 2%;
+  background-color: hsla(0, 0%, 0%, 0.863);
 }
